@@ -305,7 +305,7 @@ footer {
 .timeline-item {
   padding: 4em 2em 0em 2em;
   position: relative;
-  border-left: 1px solid #011e2e;
+  border-left: 1px solid #333c83;
 }
 
 .timeline-item p {
@@ -321,7 +321,7 @@ footer {
   display: block;
   font-weight: 500;
   font-size: 0.8em;
-  color: #011e2e;
+  color: #333c83;
   padding: 0;
   margin: 0;
 }
@@ -335,7 +335,7 @@ footer {
   left: -6px;
   border-radius: 12px;
   content: "";
-  background: #011e2e;
+  background: #333c83;
 }
 
 .history-items {
