@@ -33,6 +33,10 @@ body {
     background-color: #d8d8d8;
 }
 
+.bg-color-work-history {
+    background-color: #ff9d1b;
+}
+
 /* ---------------------------------- Special paddings/margins/text */
 h1,
 h2,
@@ -68,6 +72,7 @@ p {
     float: none;
 }
 
+.history-heading,
 .section-heading {
     font-weight: 500;
     margin-top: 25px;
@@ -284,4 +289,48 @@ footer {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/* ---------------------------------- Work History */
+.history-heading {
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid #525252;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #525252;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
