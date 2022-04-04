@@ -21,10 +21,11 @@
       "**/CVS": true
    },
    "files.autoSave": "afterDelay",
-   "workbench.colorTheme": "Visual Studio Dark",
+   "workbench.colorTheme": "Tomorrow Night Blue",
    "terminal.integrated.gpuAcceleration": "canvas",
    "editor.defaultFormatter": "HookyQR.beautify",
    "cSpell.words": [
+      "projectsummary",
       "utilising"
    ]
 }
