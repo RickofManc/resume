@@ -3,7 +3,6 @@
 body {
   font-family: "Zen Maru Gothic", sans-serif;
   color: #555555;
-  background-color: #525252;
   font-weight: 300;
 }
 
@@ -21,7 +20,7 @@ body {
 }
 
 .ui-menu-color-download {
-  background-color: #333c83;
+  background-color: #4754b2;
 }
 
 .ui-menu-color-interests {
@@ -136,14 +135,14 @@ header {
   margin-bottom: 90px;
   color: #fff;
 }
-/*
+
 .list-inline-item:not(:last-child) {
   margin-right: 0;
 }
 .menu-container {
   font-size: 0;
 }
-*/
+
 #nav {
   margin: 0;
 }
@@ -240,6 +239,10 @@ footer {
 
 #footer-details {
   padding: 20px;
+}
+
+.footer-about-txt {
+  padding-right: 40px;
 }
 
 /* ---------------------------------- Three Reasons */
@@ -375,11 +378,16 @@ button[type="submit"] {
   background-color: #f24a72;
 }
 
-/*--------------------------------------------Map*/	
+/* ---------------------------------- 404 Page */
+.heading404 {
+  color: #011e2e;
+}
+
+
+/*---------------------------------- Map*/	
 div#map {
   min-height: 360px;	
 }	
-
 
 /* ---------------------------------- Media Queries */
 @media (min-width: 992px) {
