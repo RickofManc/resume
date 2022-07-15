@@ -43,8 +43,8 @@ body {
   background-color: #d8d8d8;
 }
 
-.bg-color-skills {	
-  background-color: #fafafa;	
+.bg-color-skills {
+  background-color: #fafafa;
 }
 
 .bg-color-work-history {
@@ -55,11 +55,11 @@ body {
   background-color: #fafafa;
 }
 
-.bg-color-conferences {	
-  background-color: #d8d8d8;	
+.bg-color-conferences {
+  background-color: #d8d8d8;
 }
 
-.bg-color-groups {	
+.bg-color-groups {
   background-color: #fafafa;
 }
 
@@ -141,6 +141,7 @@ header {
 .list-inline-item:not(:last-child) {
   margin-right: 0;
 }
+
 .menu-container {
   font-size: 0;
 }
@@ -245,6 +246,7 @@ footer {
 
 .footer-about-txt {
   padding-right: 40px;
+  margin-top: 10px;
 }
 
 /* ---------------------------------- Three Reasons */
@@ -385,20 +387,23 @@ button[type="submit"] {
   color: #011e2e;
 }
 
-
-/*---------------------------------- Map*/	
+/*---------------------------------- Interests */
 div#map {
-  min-height: 360px;	
-}	
+  min-height: 360px;
+}
+
+.interests-row {
+  justify-content: center;
+}
 
 /* ---------------------------------- Media Queries */
 @media (min-width: 992px) {
-  .section-column {	
-    padding: 0 30px 30px;	
-    float: none;	
-    display: table-cell;	
-}
-  
+  .section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+  }
+
   .center-form {
     padding-top: 30px;
     min-height: 240px;
@@ -419,5 +424,15 @@ div#map {
     padding-inline-end: 22px;
   }
 
+  .section-heading {
+    padding-left: 15px;
+  }
 
+  .interests-heading {
+    padding-left: 0px;
+  }
+
+  .menu-item {
+    height: 80px;
+  }
 }
